@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8CC0F3">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </androidx.viewpager.widget.ViewPager>
+    <ImageButton
+        android:id="@+id/img_btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu"/>
+</RelativeLayout>

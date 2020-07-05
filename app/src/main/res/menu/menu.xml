@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dp"
+    android:layout_width="60dp">
+    <item android:id="@+id/setCity"
+        android:title="管理城市"/>
+    <item android:id="@+id/setGap"
+        android:title="关于"/>
+</menu>

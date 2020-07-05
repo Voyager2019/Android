@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#88A7C6">
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/search">
+            </ImageView>
+            <EditText
+                android:id="@+id/search_et"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="45dp"
+                android:hint="搜索城市"
+                android:textColor="#fff"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:ems="10" >
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/list_search_city"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:textFilterEnabled="true"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"/>
+    </LinearLayout>
+</LinearLayout>
